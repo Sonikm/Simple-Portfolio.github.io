@@ -1,0 +1,142 @@
+
+@media screen and (max-width: 1145px) {
+   #portfolio.section-container{
+    padding: 2rem 1rem;
+   }
+}
+
+@media screen and (max-width: 900px) {
+    .section-container {
+        padding: 2rem 1.5rem;
+        /* overflow:hidden; */
+     }
+
+     #skills {
+        height: 35vh;
+        background-color: #f0f0f0;
+    }
+    #contact.section-container{
+        padding: 3rem;
+    }   
+}
+
+ @media screen and (max-width: 730px) {
+    .section-container {
+        padding: 2rem 0.5rem;
+     }
+
+     .timeline {
+        padding-inline: 2.5rem;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 2fr 100px 2fr;
+    
+    }
+    #portfolio.section-container{
+        padding: 3rem ;
+       }
+} 
+
+@media screen and (max-width:600px ) {
+    .body-header {
+        height: 55vh;
+        overflow: hidden;
+        background-position: top;
+        backdrop-filter:blur(8px);
+    }
+
+  .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+        font-size: 25px;
+    }
+
+    .name-hide {
+        display: none;
+    }
+
+    #body-header nav {
+        position: relative;
+    }
+
+     ul{
+        flex-direction: column;
+        overflow: initial;
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .nav-toggle {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        padding: 10px;
+        font-size: 30px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+.timeline {
+        position: relative;
+        margin: 0 auto;
+        display: grid;
+    }
+
+.timeline-box {
+        position: relative;
+        color: #727070;
+        padding: 10px;
+    }
+
+.timeline {
+        position: relative;
+        padding-inline: 3rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr  30px;
+    }
+
+.timeline-box-1 {
+   grid-row: 1/2; 
+   grid-column: 1/2;
+}
+
+.timeline-box-2 {
+   grid-row: 2/3; 
+   grid-column: 1/2;
+}
+
+.timeline-box-3 {
+   grid-row: 3/4; 
+   grid-column: 1/2;
+}
+
+.timeline-divider {
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+
+.timeline-divider-line {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 1.3px dotted #0A66C2;
+    left: 100%;
+    top: 10%;
+}
+
+} 
+
